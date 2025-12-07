@@ -12,7 +12,7 @@ st.set_page_config(page_title="AI Trade Command V32", layout="wide")
 # ==========================================
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "trader123":
+        if st.session_state["password"] == "Pintu@1969":
             st.session_state["password_correct"] = True
             del st.session_state["password"]
         else:
@@ -319,3 +319,4 @@ with tab2:
                             st.write(f"Accuracy: {wr:.1f}%")
             else:
                 st.warning("Market is dead. No signals found.")
+
